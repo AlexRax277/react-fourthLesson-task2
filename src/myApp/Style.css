@@ -1,0 +1,41 @@
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+.btn-pen, .btn-cross {
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.btn-pen {
+    background: url('./pic/pen.png') center center no-repeat;
+    background-size: 50%;
+    right: 40px;
+}
+
+.btn-cross {
+    background: url('./pic/cross.png') center center no-repeat;
+    background-size: 50%;
+    right: 10px;
+}
+
+.table {
+    position: relative;
+    list-style-type: none;
+    width: 26%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.info {
+    display: inline-block;
+    width: 120px;
+    margin-right: 70px;
+    text-align: center;
+}
